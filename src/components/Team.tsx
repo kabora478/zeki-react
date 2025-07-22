@@ -38,8 +38,8 @@ const Team = () => {
             Meet Our <span className="text-gradient-blue">Team</span>
           </h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
-            The dedicated individuals behind Swahilipot Hub Foundation's mission
-            to empower youth across East Africa.
+            The dedicated individuals behind zeki tech solutions
+            to work on quality softwares.
           </p>
         </div>
         

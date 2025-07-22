@@ -12,7 +12,7 @@ const contactInfo = [
     id: 1,
     icon: MapPin,
     title: "Visit Us",
-    content: "Opp. Governor's Office, Butterfly House, Mombasa, Kenya"
+    content: "On our social media platforms."
   },
   {
     id: 2,
