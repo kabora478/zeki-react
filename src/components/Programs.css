@@ -1,0 +1,99 @@
+.programs-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.programs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.programs-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.highlight {
+  color: #2563eb; /* Blue */
+}
+
+.programs-header p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.programs-grid {
+  display: grid;
+  gap: 24px;
+  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.program-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+}
+
+.program-icon {
+  background-color: #e0e7ff;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-flex;
+  margin-bottom: 16px;
+}
+
+.program-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.program-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.program-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.program-link:hover {
+  text-decoration: underline;
+}
+
+.specialized-title {
+  font-size: 1.8rem;
+  margin-top: 60px;
+  color: #111;
+}
+
+.view-all {
+  margin-top: 40px;
+}
+
+.view-all-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.view-all-btn:hover {
+  background-color: #1e40af;
+}
