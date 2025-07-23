@@ -1,5 +1,5 @@
 import React from "react";
-
+import Navbar from "@/components/Navbar";
 const MobileDevelopment: React.FC = () => (
   <div className="program-detail">
     <h1>Mobile App Development</h1>

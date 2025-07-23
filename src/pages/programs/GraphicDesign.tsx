@@ -1,5 +1,5 @@
 import React from "react";
-
+import Navbar from "@/components/Navbar";
 const GraphicDesign: React.FC = () => (
   <div className="program-detail">
     <h1>Graphic Design</h1>

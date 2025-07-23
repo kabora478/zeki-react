@@ -1,5 +1,5 @@
 import React from "react";
-
+import Navbar from "@/components/Navbar";
 const MachineLearning: React.FC = () => (
   <div className="program-detail">
     <h1>Machine Learning & AI</h1>

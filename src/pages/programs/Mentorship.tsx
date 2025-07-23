@@ -1,5 +1,5 @@
 import React from "react";
-
+import Navbar from "@/components/Navbar";
 const Mentorship: React.FC = () => (
   <div className="program-detail">
     <h1>Tech Mentorship</h1>
