@@ -35,19 +35,19 @@ const Footer = () => {
             <a href="https://www.linkedin.com/company/zeki/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="https://www.youtube.com/@swahilipothubfoundation" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@Emmanuel-b3h" target="_blank" rel="noopener noreferrer">
               <FaYoutube />
             </a>
           </div>
         </div>
 
         <div className="footer-links">
-          <h3>Programs</h3>
+          <h3>Services</h3>
           <ul>
-            <li><Link to="/programs">Mombasa Tourism Innovation Hub</Link></li>
-            <li><Link to="/programs">Arts & Culture</Link></li>
-            <li><Link to="/programs">Entrepreneurship</Link></li>
-            <li><Link to="/programs">Youth Mentorship</Link></li>
+            <li><Link to="/programs">Website Development</Link></li>
+            <li><Link to="/programs">Artifitial Inteligence</Link></li>
+            <li><Link to="/programs">Mobile Development</Link></li>
+            <li><Link to="/programs">Cyber Security</Link></li>
           </ul>
         </div>
 
