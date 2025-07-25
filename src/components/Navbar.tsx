@@ -20,12 +20,12 @@ const Navbar = () => {
         <div className="nav-links">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/programs">Programs</Link>
+          <Link to="/programs">Our Services</Link>
           <Link to="/departments">Departments</Link>
           <Link to="/impact">Impact</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/events" className="navbar-events-button">
-            <Heart size={16} /> Events
+            <Heart size={16} /> News
           </Link>
         </div>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
           <Link to="/about" onClick={toggleMenu}>About</Link>
 
           <div>
-            <Link to="/programs" onClick={toggleMenu}>Programs</Link>
+            <Link to="/programs" onClick={toggleMenu}>Our Services</Link>
             <div className="mobile-submenu">
               <Link to="/programs/case-management" onClick={toggleMenu}>Case Management</Link>
               <Link to="/programs/tourism-innovation-lab" onClick={toggleMenu}>Tourism Innovation Lab</Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
           <Link to="/impact" onClick={toggleMenu}>Impact</Link>
           <Link to="/contact" onClick={toggleMenu}>Contact</Link>
           <Link to="/events" className="navbar-events-button" onClick={toggleMenu}>
-            <Heart size={16} /> Events
+            <Heart size={16} /> News
           </Link>
         </div>
       )}
