@@ -1,0 +1,99 @@
+.cloud-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f111a;
+  color: #f0f0f0;
+}
+
+.cloud-hero {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.cloud-hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.cloud-hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.cloud-hero-overlay p {
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+
+.cloud-content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.cloud-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+.cloud-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.cloud-card {
+  background: #1c1f2e;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.cloud-card:hover {
+  transform: translateY(-5px);
+}
+
+.cloud-card h3 {
+  font-size: 1.2rem;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.cloud-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.cloud-info {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 30px 0;
+}
+
+.cloud-button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  background-color: #38bdf8;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cloud-button:hover {
+  background-color: #0ea5e9;
+}

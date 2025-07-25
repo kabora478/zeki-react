@@ -1,0 +1,99 @@
+.mobile-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f111a;
+  color: #e4e6eb;
+}
+
+.mobile-hero {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mobile-hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.mobile-hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.mobile-hero-overlay p {
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+
+.mobile-content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.mobile-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #00d4ff;
+}
+
+.mobile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.mobile-card {
+  background: #1c1f2e;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.mobile-card:hover {
+  transform: translateY(-5px);
+}
+
+.mobile-card h3 {
+  font-size: 1.2rem;
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+.mobile-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.mobile-info {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 30px 0;
+}
+
+.mobile-button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  background-color: #00d4ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mobile-button:hover {
+  background-color: #00aacc;
+}
