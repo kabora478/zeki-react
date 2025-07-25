@@ -42,20 +42,20 @@ const Navbar = () => {
           <div>
             <Link to="/programs" onClick={toggleMenu}>Our Services</Link>
             <div className="mobile-submenu">
-              <Link to="/programs/case-management" onClick={toggleMenu}>Case Management</Link>
-              <Link to="/programs/tourism-innovation-lab" onClick={toggleMenu}>Tourism Innovation Lab</Link>
-              <Link to="/programs/campus-ambassador" onClick={toggleMenu}>Campus Ambassador</Link>
-              <Link to="/programs/swahili-tech-women" onClick={toggleMenu}>Swahili Tech Women</Link>
+              {/* <Link to="/programs/case-management" onClick={toggleMenu}>Case Management</Link> */}
+              {/* <Link to="/programs/tourism-innovation-lab" onClick={toggleMenu}>Tourism Innovation Lab</Link> */}
+              {/* <Link to="/programs/campus-ambassador" onClick={toggleMenu}>Campus Ambassador</Link> */}
+              {/* <Link to="/programs/swahili-tech-women" onClick={toggleMenu}>Swahili Tech Women</Link> */}
             </div>
           </div>
 
           <div>
             <span>Departments</span>
             <div className="mobile-submenu">
-              <Link to="/department/communication" onClick={toggleMenu}>Communication</Link>
-              <Link to="/department/tech-engineering" onClick={toggleMenu}>Tech & Engineering</Link>
-              <Link to="/department/creatives" onClick={toggleMenu}>Creatives</Link>
-              <Link to="/department/community-entrepreneurship" onClick={toggleMenu}>Community & Entrepreneurship</Link>
+              {/* <Link to="/department/communication" onClick={toggleMenu}>Communication</Link> */}
+              {/* <Link to="/department/tech-engineering" onClick={toggleMenu}>Tech & Engineering</Link> */}
+              {/* <Link to="/department/creatives" onClick={toggleMenu}>Creatives</Link> */}
+              {/* <Link to="/department/community-entrepreneurship" onClick={toggleMenu}>Community & Entrepreneurship</Link> */}
             </div>
           </div>
 

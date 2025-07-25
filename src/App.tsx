@@ -57,10 +57,10 @@ const App = () => (
 
           {/* Programs */}
           <Route path="/programs" element={<Programs />} />
-          <Route path="/programs/case-management" element={<CaseManagement />} />
-          <Route path="/programs/tourism-innovation-lab" element={<TourismInnovationLab />} />
-          <Route path="/programs/campus-ambassador" element={<CampusAmbassador />} />
-          <Route path="/programs/swahili-tech-women" element={<SwahiliTechWomen />} />
+          {/* <Route path="/programs/case-management" element={<CaseManagement />} /> */}
+          {/* <Route path="/programs/tourism-innovation-lab" element={<TourismInnovationLab />} /> */}
+          {/* <Route path="/programs/campus-ambassador" element={<CampusAmbassador />} /> */}
+          {/* <Route path="/programs/swahili-tech-women" element={<SwahiliTechWomen />} /> */}
 
           {/* NEW Tech Programs */}
           <Route path="/programs/web-development" element={<WebDevelopment />} />
@@ -75,10 +75,10 @@ const App = () => (
 
           {/* Departments */}
           <Route path="/departments" element={<Departments />} />
-          <Route path="/departments/communication" element={<Communication />} />
-          <Route path="/departments/tech-engineering" element={<TechEngineering />} />
-          <Route path="/departments/creatives" element={<Creatives />} />
-          <Route path="/departments/community-entrepreneurship" element={<CommunityEntrepreneurship />} />
+          {/* <Route path="/departments/communication" element={<Communication />} /> */}
+          {/* <Route path="/departments/tech-engineering" element={<TechEngineering />} /> */}
+          {/* <Route path="/departments/creatives" element={<Creatives />} /> */}
+          {/* <Route path="/departments/community-entrepreneurship" element={<CommunityEntrepreneurship />} /> */}
 
           {/* Catch-all */}
           <Route path="*" element={<NotFound />} />
