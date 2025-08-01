@@ -1,19 +1,20 @@
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import ReferEarn from "../components/ReferEarn";
 import About from "@/components/About";
 import Programs from "@/components/Programs";
 import Impact from "@/components/Impact";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-
 const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <ReferEarn/>
         <About />
         <Programs />
         <Impact />

@@ -6,12 +6,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // General Pages
 import Index from "./pages/Index";
+import ReferEarn from "./components/ReferEarn";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
 import Events from "./pages/Events";
 import Impact from "./pages/Impact";
 import NotFound from "./pages/NotFound";
+import Auth from "./components/Auth";
 
 // Programs
 import Programs from "./pages/Programs";
@@ -54,6 +56,7 @@ const App = () => (
         <Routes>
           {/* General */}
           <Route path="/" element={<Index />} />
+          <Route path="/refer" element={<ReferEarn />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
@@ -62,7 +65,7 @@ const App = () => (
 
           {/* Programs */}
           <Route path="/programs" element={<Programs />} />
-
+<Route path="/auth" element={<Auth />} />
           {/* NEW Tech Programs */}
           <Route path="/programs/web-development" element={<WebDevelopment />} />
           <Route path="/programs/cyber-security" element={<CyberSecurity />} />

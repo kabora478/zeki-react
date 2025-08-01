@@ -1,9 +1,16 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 import "./GraphicDesignRequestPage.css"
+import ReferEarn from "@/components/ReferEarn";
 
 const GraphicDesignRequestPage: React.FC = () => (
-  <div className="p-6 max-w-4xl mx-auto">
+ 
+
+    <div>
+      <Navbar/>
+      
+   <div className="p-6 max-w-4xl mx-auto">
     <h1 className="text-3xl font-bold mb-4">Graphic Design Services</h1>
     <p className="text-gray-700 mb-6">
       Our creative team delivers professional and visually stunning designs tailored for your brand.
@@ -43,6 +50,10 @@ const GraphicDesignRequestPage: React.FC = () => (
     <button className="mt-6 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl">
       Request Graphic Design
     </button>
+    
+    </div>
+    <ReferEarn/>
+     <Footer/>
   </div>
 );
 

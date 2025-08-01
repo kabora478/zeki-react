@@ -1,0 +1,94 @@
+.refer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5%;
+  background: #f5f8fe;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.refer-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.refer-left h1 {
+  font-size: 2.8rem;
+  color: #0a3d62;
+  margin-bottom: 20px;
+}
+
+.refer-left p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.refer-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background-color: #1e3799;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #174ea6;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #1e3799;
+  padding: 12px 22px;
+  border: 2px solid #1e3799;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #e3ebff;
+}
+
+.refer-right {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.refer-right img {
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .refer-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .refer-left h1 {
+    font-size: 2rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    padding: 14px;
+  }
+}

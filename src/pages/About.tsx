@@ -47,12 +47,12 @@ const About = () => {
             <div className="story-text">
               <h2>Our Story</h2>
               <p>
-                Zekis Tech Solutions is a technology-focused organization committed to empowering
+                MyGuys Tech Solutions is a technology-focused organization committed to empowering
                 youth and businesses through software, cybersecurity, and digital innovation.
               </p>
               <p>
                 Founded with the mission to provide smart, secure, and user-friendly digital
-                solutions, Zekis has grown to become a trusted partner in tech capacity building,
+                solutions, MyGuys has grown to become a trusted partner in tech capacity building,
                 mentorship, and sustainable impact.
               </p>
               <p>
@@ -63,14 +63,14 @@ const About = () => {
             <div className="story-video">
               <div className="video-container">
                 <iframe
-                  src="https://www.youtube.com/embed/bscypssE8Ms"
+                  src="https://www.youtube.com//bscypssE8Ms"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   title="Zekis Documentary"
                 ></iframe>
                 <button
                   onClick={() =>
-                    window.open("https://www.youtube.com/watch?v=bscypssE8Ms", "_blank")
+                    window.open("https://www.youtube/watch?v=bscypssE8Ms", "_blank")
                   }
                 >
                   Play Documentary
@@ -109,7 +109,7 @@ const About = () => {
             </p>
             <div className="cta-buttons">
               <Link
-                to="https://docs.google.com/forms/d/e/1FAIpQLSe8xVQEK2VP89CYE4166i6Vr6iriaA1x1D5ecVBCVY5MuqP3g/viewform?usp=dialog"
+                to="https://docs.google.com/forms/d/e/1FAIhjjhgpQLSe8xVQEK2VP89CYE4166i6Vr6iriaA1x1D5ecVBCVY5MuqP3g/viewform?usp=dialog"
                 target="_blank"
               >
                 <Button className="btn-primary">Join the Youth Database</Button>

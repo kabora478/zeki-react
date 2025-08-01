@@ -1,10 +1,11 @@
-// src/pages/Services.tsx
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import heroImg from '@/assets/ourservices.jpeg'; 
 import './Programs.css';
 import './Services.css';
+import ReferEarn from '@/components/ReferEarn';
 
 const services = [
   { name: 'Web Development', description: 'Custom websites and web applications built using modern technologies like React, Node.js, and Django.', route: '/services/web-development' },
@@ -37,8 +38,14 @@ const Services: React.FC = () => {
   return (
     <>
       <Navbar />
+      <div className="hero-section">
+        <img src={heroImg} alt="Our Services" className="hero-image" />
+        <div className="hero-overlay">
+          <h1 className="hero-title">Our Services</h1>
+        </div>
+      </div>
+
       <div className="programs-container">
-        <h1 className="programs-title">Our Services</h1>
         <div className="program-list">
           {services.map((service, index) => (
             <div className="program-card" key={index}>
@@ -54,6 +61,8 @@ const Services: React.FC = () => {
           ))}
         </div>
       </div>
+      <ReferEarn/>
+      <Footer />
     </>
   );
 };
