@@ -9,7 +9,7 @@ const teamMembers = [
     image: "/img/team/zeki.jpg"
   },{
     id: 2,
-    name: "silivester Staloon",
+    name: "silvester Staloon",
     role: "Chief Operating Officer",
     image: "/img/team/stano.jpeg"
   },

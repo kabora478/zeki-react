@@ -1,0 +1,46 @@
+.service-details {
+  padding: 2rem;
+  background-color: #fefefe;
+}
+
+.website-options {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 2rem;
+}
+
+.website-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.website-card:hover {
+  transform: translateY(-5px);
+}
+
+.website-card h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.website-card p {
+  margin-bottom: 0.8rem;
+}
+
+.btn-select {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-select:hover {
+  background-color: var(--secondary-color);
+}

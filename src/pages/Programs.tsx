@@ -1,13 +1,16 @@
 // src/pages/Services.tsx
 import React, { useEffect } from 'react';
-import Navbar from '../components/Navbar'; // ✅ Adjust path if needed
-import './Programs.css'; // ✅ Reuse styles for now
+import { useNavigate } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import './Programs.css';
+import './Services.css';
 
 const services = [
-  { name: 'Web Development', description: 'Custom websites and web applications built using modern technologies like React, Node.js, and Django.' },
+  { name: 'Web Development', description: 'Custom websites and web applications built using modern technologies like React, Node.js, and Django.', route: '/services/web-development' },
   { name: 'Mobile App Development', description: 'Native and cross-platform mobile applications using Flutter and React Native.' },
-  { name: 'Graphic Design', description: 'Creative branding, social media content, posters, and logo design for businesses and events.' },
-  { name: 'Cybersecurity Solutions', description: 'Security audits, penetration testing, and training to protect your digital assets.' },
+  { name: 'Graphic Design', description: 'Creative branding, social media content, posters, and logo design for businesses and events.', route: '/services/graphic-design' },
+  { name: 'Cybersecurity Solutions', description: 'Security audits, penetration testing, and training to protect your digital assets.', route: '/services/cyber-security' },
   { name: 'Digital Marketing', description: 'Social media campaigns, SEO, and paid advertising to grow your online presence.' },
   { name: 'IT Consultancy', description: 'Professional IT guidance for digital transformation and infrastructure management.' },
   { name: 'E-learning Platform Setup', description: 'Custom LMS systems for schools, colleges, and training centers.' },
@@ -17,20 +20,36 @@ const services = [
 ];
 
 const Services: React.FC = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
-    document.title = "Zeki Tech Solutions | Services";
+    document.title = "MyGuys Tech Solutions | Services";
   }, []);
+
+  const handleRequestClick = (route?: string) => {
+    if (route) {
+      navigate(route);
+    } else {
+      alert("Please contact us directly for this service.");
+    }
+  };
 
   return (
     <>
       <Navbar />
       <div className="programs-container">
-        <h1>Our Services</h1>
-        <div className="programs-list">
+        <h1 className="programs-title">Our Services</h1>
+        <div className="program-list">
           {services.map((service, index) => (
             <div className="program-card" key={index}>
-              <h2>{service.name}</h2>
+              <h3>{service.name}</h3>
               <p>{service.description}</p>
+              <button
+                onClick={() => handleRequestClick(service.route)}
+                className="btn-request"
+              >
+                Request This
+              </button>
             </div>
           ))}
         </div>

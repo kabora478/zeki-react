@@ -31,6 +31,11 @@ import UIUX from "./pages/programs/UIUX";
 import DataScience from "./pages/programs/DataScience";
 import Mentorship from "./pages/programs/Mentorship";
 
+// NEW: Service Details Pages
+import WebDevRequestPage from "./pages/Services/WebDevelopment";
+import GraphicDesignRequestPage from "./pages/Services/GraphicDesignRequestPage";
+import CyberSecurityRequestPage from "./pages/Services/CyberSecurityRequestPage";
+
 // Departments
 import Departments from "./pages/Departments";
 import Communication from "./pages/Communication";
@@ -57,10 +62,6 @@ const App = () => (
 
           {/* Programs */}
           <Route path="/programs" element={<Programs />} />
-          {/* <Route path="/programs/case-management" element={<CaseManagement />} /> */}
-          {/* <Route path="/programs/tourism-innovation-lab" element={<TourismInnovationLab />} /> */}
-          {/* <Route path="/programs/campus-ambassador" element={<CampusAmbassador />} /> */}
-          {/* <Route path="/programs/swahili-tech-women" element={<SwahiliTechWomen />} /> */}
 
           {/* NEW Tech Programs */}
           <Route path="/programs/web-development" element={<WebDevelopment />} />
@@ -73,12 +74,13 @@ const App = () => (
           <Route path="/programs/data-science" element={<DataScience />} />
           <Route path="/programs/mentorship" element={<Mentorship />} />
 
+          {/* Service Request Pages */}
+          <Route path="/services/web-development" element={<WebDevRequestPage />} />
+          <Route path="/services/graphic-design" element={<GraphicDesignRequestPage />} />
+          <Route path="/services/cyber-security" element={<CyberSecurityRequestPage />} />
+
           {/* Departments */}
           <Route path="/departments" element={<Departments />} />
-          {/* <Route path="/departments/communication" element={<Communication />} /> */}
-          {/* <Route path="/departments/tech-engineering" element={<TechEngineering />} /> */}
-          {/* <Route path="/departments/creatives" element={<Creatives />} /> */}
-          {/* <Route path="/departments/community-entrepreneurship" element={<CommunityEntrepreneurship />} /> */}
 
           {/* Catch-all */}
           <Route path="*" element={<NotFound />} />

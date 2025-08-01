@@ -14,12 +14,12 @@ const Hero: React.FC = () => {
         </h1>
 
         <p>
-          Welcome to <strong>Zeki Tech Solutions</strong> – unlocking possibilities and empowering tomorrow’s tech leaders.
+          Welcome to <strong>MYGUYS Tech Solutions</strong> – unlocking possibilities and empowering tomorrow’s tech leaders.
         </p>
 
         <div className="hero-buttons">
           <Link to="/programs" className="btn-primary">
-            Our Programs <ArrowRight size={16} />
+            OUR SERVICES <ArrowRight size={16} />
           </Link>
           <Link to="/about" className="btn-secondary">
             Learn More

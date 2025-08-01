@@ -76,7 +76,7 @@ const Programs = () => {
     <section className="programs-section">
       <div className="programs-container">
         <div className="programs-header">
-          <h2>Our <span className="highlight">Programs</span></h2>
+          <h2>Tech <span className="highlight">Training Programs</span></h2>
           <p>Explore specialized programs designed to develop tech talent and innovation.</p>
         </div>
 

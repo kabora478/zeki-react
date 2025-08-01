@@ -1,0 +1,91 @@
+/* General Page Layout */
+.service-details {
+  padding: 2rem;
+  background: linear-gradient(to right, #f8f9fc, #eaf4fb);
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+/* Page Title */
+.service-details h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #002244;
+}
+
+/* Intro Text */
+.service-details p {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Card Container */
+.website-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+/* Each Card */
+.website-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Animation */
+.website-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+/* Card Title */
+.website-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #005792;
+}
+
+/* Price and Description */
+.website-card p {
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+/* Button */
+.btn-select {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #005792;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-select:hover {
+  background-color: #003f63;
+}
+
+/* Background Decoration */
+.website-card::before {
+  content: "";
+  background: url('https://cdn-icons-png.flaticon.com/512/2541/2541991.png') no-repeat center center;
+  background-size: 60px;
+  opacity: 0.1;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 60px;
+  height: 60px;
+}
